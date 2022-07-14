@@ -1,9 +1,7 @@
-body
-{
-background-position: center;
-background-size: cover;
+body{
+    background-size: cover;
+    background-position: center;
 }
-
 .heading
 {
 font-size: 23px;
@@ -16,22 +14,19 @@ margin: 0px;
 font-size: 18px;
 }
 
-canvas
-{
-box-shadow: 10px 10px 10px grey;
-border-radius: 10px;
-margin-top: 60px;
+canvas{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
 }
-a
-{
-  float:right;
-  font-size: 20px !important;
-  margin: 5px;
-  background: black;
-  cursor: pointer;
-  color: white;
+.cbt{
+    width: 250px;
+    height: 27;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    
 }
-a:hover
-{
-  color:red !important;
+.fbt{
+    font-weight: bold;
 }
+
